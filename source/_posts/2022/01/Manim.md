@@ -6,6 +6,8 @@ categories:
   - 踩坑
 tags:
   - Manim
+  - 基本
+  - 安裝
 ---
 
 +++info information
@@ -32,6 +34,6 @@ tags:
 本人裝的係miniconda
 :::
 
-1. 新建一个虚拟环境
-2. 进入虚拟环境
-3. 后续在此安装各种python库
+### 安裝conda
+這個唔使我講啦,一直點下一步,不過要記得勾選添加變量環境
+關於conda的運用,可以看[conda的基本運用](conda的基本運用.md)

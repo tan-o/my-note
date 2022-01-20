@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: http://tan-o.github.io
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -58,6 +58,7 @@ category_map: # edit for Theme.shoka
   task: task
   學習: Study
   踩坑: bad
+  運用: use
 tag_map:
 
 # Home page setting
