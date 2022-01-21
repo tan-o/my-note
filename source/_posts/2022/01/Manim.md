@@ -28,6 +28,19 @@ tags:
 
 +++
 
+- [基本環境](#基本環境)
+  - [Conda](#conda)
+    - [安裝conda](#安裝conda)
+  - [dvisvgm](#dvisvgm)
+  - [sox](#sox)
+  - [Pycario](#pycario)
+    - [安裝pycario](#安裝pycario)
+  - [ffmpeg](#ffmpeg)
+  - [Miklex](#miklex)
+  - [下載Manim](#下載manim)
+- [調試](#調試)
+- [中文支持](#中文支持)
+
 # 基本環境
 ## Conda
 :::info

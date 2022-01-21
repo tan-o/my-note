@@ -9,6 +9,11 @@ tags:
   - 基本
 ---
 
+- [1. conda 换源](#1-conda-换源)
+- [2. 升级conda](#2-升级conda)
+- [3. conda基本使用](#3-conda基本使用)
+- [4. 安装包](#4-安装包)
+
 # 1. conda 换源
 
 :::info
