@@ -36,4 +36,4 @@ tags:
 
 ### 安裝conda
 這個唔使我講啦,一直點下一步,不過要記得勾選添加變量環境
-關於conda的運用,可以看[conda的基本運用](conda的基本運用.md)
+關於conda的運用,可以看[conda的基本運用](/2022/01/conda的基本運用/index.html)
