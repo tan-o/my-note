@@ -98,6 +98,27 @@ manimgl .\example_scenes.py
 ![2022-01-21T162024](2022-01-21T162024.png)
 將呢10個全部運行一次,埋過冇報錯的話,恭喜🎉🎉🎉,你安裝成功
 
++++info 演示
+
+{% media video %}
+- name: "AnimatingMethods"
+  url: AnimatingMethods.mp4
+- name: "CoordinateSystemExample"
+  url: CoordinateSystemExample.mp4
+- name: "GraphExample"
+  url: GraphExample.mp4
+- name: "OpeningManimExample"
+  url: OpeningManimExample.mp4
+- name: "TexTransformExample"
+  url: TexTransformExample.mp4
+- name: "TextExample"
+  url: TextExample.mp4
+- name: "UpdatersExample"
+  url: UpdatersExample.mp4
+{% endmedia %}
+
++++
+
 # 中文支持
 找到這個文件
 ![2022-01-21T161836](2022-01-21T161836.png)
@@ -105,4 +126,5 @@ manimgl .\example_scenes.py
 按照注釋中的進行修改
 仲要修改字體,使得支持中文字體
 ![2022-01-21T164947](2022-01-21T164947.png)
+
 
