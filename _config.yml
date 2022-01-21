@@ -103,7 +103,8 @@ theme: shoka
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/tan-o/tan-o.github.io.git
 
 markdown:
   render: # 渲染器设置
