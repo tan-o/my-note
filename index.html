@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <link rel="stylesheet" href="vue.css" />
+  </head>
+  <body>
+    <div id="app">俾我谂下先......</div>
+    <script>
+      window.$docsify = {
+        coverpage: true,
+        loadSidebar: true,
+        alias: {
+          "/.*/_sidebar.md": "/_sidebar.md",
+        },
+        loadNavbar: true,
+
+        search: "auto", // 默认值
+
+        // 搜索完整配置参数
+        search: {
+          maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+          paths: "auto", // or 'auto'
+          placeholder: "揾嘢",
+
+          noData: "冇结果!",
+
+          // 搜索标题的最大层级, 1 - 6
+          depth: 2,
+
+          hideOtherSidebarContent: false, // 是否隐藏其他侧边栏内容
+
+          // 避免搜索索引冲突
+          // 同一域下的多个网站之间
+          namespace: "website-1",
+
+          // 使用不同的索引作为路径前缀（namespaces）
+          // 注意：仅适用于 paths: 'auto' 模式
+          // 初始化索引时，我们从侧边栏查找第一个路径
+          // 如果它与列表中的前缀匹配，我们将切换到相应的索引
+          pathNamespaces: ["/zh-cn", "/ru-ru", "/ru-ru/v1"],
+        },
+
+        // 点击复制
+        copyCode: {
+          buttonText: "复制",
+          errorText: "复制错误",
+          successText: "复制成功",
+        },
+
+        // 字数统计
+        count: {
+          countable: true,
+          fontsize: "0.9em",
+          color: "rgb(90,90,90)",
+          language: "chinese",
+        },
+
+        // tabs
+        tabs: {
+          persist: true, // default
+          sync: true, // default
+          theme: "classic", // default
+          tabComments: true, // default
+          tabHeadings: true, // default
+        },
+
+        // 脚注
+        footer: {
+          copy: "<span>&copy; 2022</span>",
+          auth: "by Syt",
+          pre: "<hr/>",
+          style: "text-align: right;",
+          class: "className",
+        },
+      };
+    </script>
+    <!-- Docsify v4 -->
+    <script src="js/docsify.min.js"></script>
+    <!-- 字数统计 -->
+    <script src="js/countable.js"></script>
+    <!-- 语法高亮 -->
+    <script src="js/language/prism-cpp.min.js"></script>
+    <script src="js/language/prism-python.min.js"></script>
+    <script src="js/language/prism-matlab.min.js"></script>
+    <script src="js/language/prism-c.min.js"></script>
+    <!-- 图片放大缩小支持 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <!-- 表格tab -->
+    <script src="js/docsify-tabs-min.js"></script>
+    <!-- 搜索功能支持 -->
+    <script src="js/search.min.js"></script>
+    <!--在所有的代码块上添加一个简单的Click to copy按钮来允许用户从你的文档中轻易地复制代码-->
+    <script src="js/docsify-copy-code.min.js"></script>
+    <!-- CDN files for docsify-katex -->
+    <script src="js/docsify-katex.js"></script>
+    <!-- or <script src="//cdn.jsdelivr.net/gh/upupming/docsify-katex@latest/dist/docsify-katex.js"></script> -->
+    <link rel="stylesheet" href="css/katex.min.css" />
+    <!-- 脚注 -->
+    <script src="js/docsify-footer-enh.min.js"></script>
+    <!-- Latest -->
+    <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  </body>
+</html>

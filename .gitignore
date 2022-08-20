@@ -1,6 +1,0 @@
-*.log
-node_modules/
-public/
-.vscode/
-package-lock.json
-.deploy_git
