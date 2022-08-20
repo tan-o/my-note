@@ -1,5 +1,7 @@
-# docsify <small>3.5</small>
+# 我的学习笔记
 
-[GitHub](https://github.com/docsifyjs/docsify/) [Get Started](#quick-start) <!-- 背景图片 --> 
+<small>係时候做下笔记啦</small>
 
-![color](#f0f0f0)
+[开始浏览](#快速浏览)
+
+![color](#9ee0f5)
